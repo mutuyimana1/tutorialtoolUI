@@ -1,0 +1,42 @@
+.header{
+    height: 3.5rem;
+    background-color: #CE8A4B;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.navbar nav{
+   padding: 15px 30px;
+}
+.logo img{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 4rem;
+}
+.home-content{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-image: url("../images/pexels-tirachard-kumtanom-574285.jpg");
+   
+}
+.content{
+    text-align: center;
+    margin-top: 180px;
+}
+.button{
+    margin-right:10px ;
+}
+.button button{
+    height: 35px;
+    margin-top: 10px;
+    
+    background-color: transparent;
+    border-color: #CE8A4B;
+    /* color: #CE8A4B; */
+}

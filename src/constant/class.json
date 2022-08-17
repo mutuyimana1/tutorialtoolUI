@@ -1,0 +1,16 @@
+[
+    {
+      "name": "1",
+      "user": {
+        "firstName": "Kayitare",
+        "lastName": "Cynthia",
+        "email": "email",
+        "role": "role",
+        "phone": "phone"
+      },
+      "course": {
+        "courseName": "js"
+      }
+    }
+  ]
+  
