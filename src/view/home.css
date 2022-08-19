@@ -40,3 +40,9 @@
     border-color: #CE8A4B;
     /* color: #CE8A4B; */
 }
+.nav{
+    cursor: pointer;
+}
+a{
+    color: white;
+}

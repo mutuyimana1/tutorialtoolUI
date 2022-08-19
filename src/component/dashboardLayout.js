@@ -10,7 +10,15 @@ import {
   UserOutlined,
   VideoCameraOutlined,
   UploadOutlined,
+  ContainerOutlined,
+  AppstoreOutlined, MailOutlined, SettingOutlined
 } from "@ant-design/icons";
+const { SubMenu } = Menu;
+
+function handleClick(e) {
+  console.log("click", e);
+}
+
 
 const { Header, Sider, Content } = Layout;
 
@@ -21,33 +29,71 @@ const DashLayout = ({ children }) => {
   };
   return (
     <Layout>
-      <Sider trigger={null} collapsible collapsed={collapsed}>
-        <div className="logos" />
-        <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
-          <Menu.Item key="1" icon={<UserOutlined />}>
-            <Link to="/admin/allUsers">List of All Users</Link>
-          </Menu.Item>
-          <Menu.Item key="2" icon={<VideoCameraOutlined />}>
-            <Link to="#">Add a User</Link>
-          </Menu.Item>
-          <Menu.Item
-            key="3"
-            icon={<UploadOutlined />}
-            onClick={() => localStorage.removeItem("userLogedIn")}
-          >
-            <Link to="/">Logout</Link>
-          </Menu.Item>
-        </Menu>
+      <Sider trigger={null} collapsible collapsed={collapsed} style={{background:"#CE8A4B"}}>
+      <div className="logos" />
+       
+        <Menu
+              onClick={handleClick}
+              style={{ width: 206, backgroundColor: "transparent" }}
+              mode="vertical"
+            >
+              <a href="/dashboard" className="homeLink" style={{color:"white"}}>
+                <i className="fa fa-home"></i> Dashboard
+              </a>
+              <SubMenu
+                key="sub1"
+                icon={<AppstoreOutlined />}
+                title="Manage Users"
+                style={{ color: "white", marginTop:"3rem" }}
+              >
+                <a href="/create/user">
+                  {" "}
+                  <Menu.Item key="5">Add User</Menu.Item>
+                </a>
+                <a href="/admin/users">
+                  {" "}
+                  <Menu.Item key="6"> All users</Menu.Item>
+                </a>
+              </SubMenu>
+              <SubMenu
+                key="sub2"
+                icon={<ContainerOutlined />}
+                title="Class managment"
+                style={{ color: "white" }}
+              >
+                <a href="/admin/create/class" style={{ color: "black" }}>
+                  {" "}
+                  <Menu.Item key="9">Add class</Menu.Item>
+                </a>
+                <a href="/admin/classes">
+                  {" "}
+                  <Menu.Item key="10"> class list</Menu.Item>
+                </a>
+              </SubMenu>
+              <SubMenu
+                key="sub3"
+                icon={<ContainerOutlined />}
+                title="Courses management"
+                style={{ color: "white" }}
+              >
+                <a href="/admin/create/course">
+                  {" "}
+                  <Menu.Item key="9">Add course</Menu.Item>
+                </a>
+                <a href="/admin/courses">
+                  {" "}
+                  <Menu.Item key="10">Available courses</Menu.Item>
+                </a>
+              </SubMenu>
+              
+              <Link to="/" style={{color:"white"}}>Logout</Link>
+            </Menu>
+
+
       </Sider>
       <Layout className="site-layout">
-        <Header className="site-layout-background" style={{ padding: 0 }}>
-          {React.createElement(
-            collapsed ? MenuUnfoldOutlined : MenuFoldOutlined,
-            {
-              className: "trigger",
-              onClick: toggle,
-            }
-          )}
+        <Header className="site-layout-background" style={{ padding: 0, background:"#CE8A4B" }}>
+          
         </Header>
         <Content
           className="site-layout-background"

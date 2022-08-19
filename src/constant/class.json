@@ -1,16 +1,35 @@
 [
     {
-      "name": "1",
-      "user": {
-        "firstName": "Kayitare",
-        "lastName": "Cynthia",
-        "email": "email",
-        "role": "role",
-        "phone": "phone"
-      },
-      "course": {
-        "courseName": "js"
-      }
+      "Class_name": "A",
+      "Tutor":"Anne",
+      "Students":"view Students",
+      "courses":"JS"
+      
+      
+    },
+    {
+      "Class_name": "A",
+      "Tutor":"Anne",
+      "Students":"view Students",
+      "courses":"JS"
+      
+      
+    },
+    {
+      "Class_name": "A",
+      "Tutor":"Anne",
+      "Students":"view Students",
+      "courses":"JS"
+      
+      
+    },
+    {
+      "Class_name": "A",
+      "Tutor":"Anne",
+      "Students":"view Students",
+      "courses":"JS"
+      
+      
     }
   ]
   

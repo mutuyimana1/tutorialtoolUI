@@ -1,20 +1,43 @@
 [
     {
-      "user": {
-        "firstName": "Kayitare",
-        "lastName": "Cynthia",
-        "email": "email",
-        "role": "role",
-        "phone": "phone"
-      },
-      "class": {
-        "name": "1"
-      },
-      "name": "JS",
-      "duration": "1 hours",
-      "content": "bcdiuociw cuiwciuwbciuw wui uiw iuw wiub  iuwbiuwbvuidwb",
-      "coursestatus": "Enable",
-      "email": "kacynthian@gmail.com"
-    }
+      
+        "Course_name":"JS",
+        "Course-Tutor":"aline",
+        "course-duration":"3hrs",
+        "course-content":"hbsajhbavh",
+        "course_status":"enable"
+      
+      
+    },
+    {
+      
+      "Course_name":"JS",
+      "Course-Tutor":"aline",
+      "course-duration":"3hrs",
+      "course-content":"hbsajhbavh",
+      "course_status":"enable"
+    
+    
+  },
+  {
+      
+    "Course_name":"JS",
+    "Course-Tutor":"aline",
+    "course-duration":"3hrs",
+    "course-content":"hbsajhbavh",
+    "course_status":"enable"
+  
+  
+},
+{
+      
+  "Course_name":"JS",
+  "Course-Tutor":"aline",
+  "course-duration":"3hrs",
+  "course-content":"hbsajhbavh",
+  "course_status":"enable"
+
+
+}
   ]
   
