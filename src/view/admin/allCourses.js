@@ -2,7 +2,8 @@ import { Table,Space,Drawer,Button } from 'antd';
 import React, {useState} from 'react';
 import courses from "../../constant/course.json"
 import DashLayout from '../../component/dashboardLayout';
-
+import SingleCourse from './singlecourse';
+const AllCourses = (data) => { 
 const columns = [
   {
     title: 'Course_name',
@@ -35,16 +36,20 @@ const columns = [
     key: 'action',
     render: (_, record) => (
       <Space size="middle">
-        <a>View {record.name}</a>
-        <a>Delete</a>
+        <a  onClick={() => {
+              showDrawer(true);
+              setSelectedCourse(record);
+            }}>View </a>
+        <a>Enable</a>
       </Space>
     ),
   },
 ];
 
 
-const AllCourses = () => { 
+
     const [visible, setVisible] = useState(false);
+    const [selectedCourse, setSelectedCourse]=useState({})
 
   const showDrawer = () => {
     setVisible(true);
@@ -66,9 +71,7 @@ const AllCourses = () => {
           marginTop: 16,
         }}
       >
-        <Button type="primary" onClick={showDrawer}>
-          Open
-        </Button>
+        
       </div>
       <Drawer
         title="Basic Drawer"
@@ -81,7 +84,7 @@ const AllCourses = () => {
           position: 'absolute',
         }}
       >
-        <p>Some contents...</p>
+         <SingleCourse data={selectedCourse} />
       </Drawer>
     </div>
   </DashLayout>

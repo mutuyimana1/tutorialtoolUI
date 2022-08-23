@@ -1,0 +1,26 @@
+.header{
+    height: 3.5rem;
+    background-color: #CE8A4B;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    margin-right: 5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.navbar nav{
+   padding: 15px 30px;
+}
+.logo img{
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 4rem;
+}
+.footer{
+    background-color: #CE8A4B;
+    height: auto;
+    width: 100%;
+
+}

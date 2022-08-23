@@ -1,0 +1,19 @@
+.site-card-border-less-wrapper {
+    padding: 30px;
+    background: #ececec;
+ margin-top: 70px;
+  }
+  .card{
+    /* margin-left: 20px; */
+   margin-top: 20px;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    
+  }
+  h2{
+    text-align: center;
+    padding-top: 20px;
+  }

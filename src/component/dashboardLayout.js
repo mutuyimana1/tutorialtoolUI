@@ -31,7 +31,7 @@ const DashLayout = ({ children }) => {
     <Layout>
       <Sider trigger={null} collapsible collapsed={collapsed} style={{background:"#CE8A4B"}}>
       <div className="logos" />
-       
+  
         <Menu
               onClick={handleClick}
               style={{ width: 206, backgroundColor: "transparent" }}
@@ -103,7 +103,10 @@ const DashLayout = ({ children }) => {
             minHeight: 280,
           }}
         >
+               
           {children}
+
+          {/* <h2 style={{textAlign:"center", marginTop:"3rem"}}>Welcome to Tutorial Admin Dashboard</h2> */}
         </Content>
       </Layout>
     </Layout>

@@ -32,9 +32,9 @@
 {
       
   "Course_name":"JS",
-  "Course-Tutor":"aline",
-  "course-duration":"3hrs",
-  "course-content":"hbsajhbavh",
+  "Course_Tutor":"aline",
+  "course_duration":"3hrs",
+  "course_content":"hbsajhbavh",
   "course_status":"enable"
 
 
