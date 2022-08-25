@@ -45,7 +45,7 @@ function Home() {
   <div className="home-body">
           <div className="content">
             <h1 style={{marginLeft:"300px"}}>OWN YOUR FUTURE BY</h1>
-            <h4>LEARNING NEW SKILLS</h4>
+            <h4 style={{color:'white'}}>LEARNING NEW SKILLS</h4>
 
             <div className="button">
             <a href="/courses" style={{color:"black"}}> <button >View all courses</button>{" "}</a> 
