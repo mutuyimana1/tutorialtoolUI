@@ -6,6 +6,7 @@ import { Button, Modal, Checkbox, Form, Input, InputNumber,Card } from "antd";
 import { LockOutlined, UserOutlined } from "@ant-design/icons";
 import Forms from "../component/form";
 import Footer from "../component/footer";
+import Classes from "../constant/class"
 function Home() {
  
 
@@ -54,10 +55,12 @@ function Home() {
           </div>
 
           <div className="site-card-border-less-wrapper">
+          
             <div className="cards">
+            {Classes.map((classe)=>(
               <div className="card">
     <Card
-      title="Programming Class"
+      title={classe.Class_name}
       bordered={false}
       style={{
         width: 300,
@@ -65,61 +68,18 @@ function Home() {
       }}
       
     >
-      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
+      <p>{classe.class_discription}</p>
+      <b>Created by <i style={{color:"gray"}}> {classe.Tutor}</i></b> <br/><br/>
      
-      <Button>View class Courses</Button>
+      <a href="/courses"><Button>View class Courses</Button></a>
     </Card>
     </div>
-    <div className="card">
-    <Card
-      title="Programming Class"
-      bordered={false}
-      style={{
-        width: 300,
-        
-      }}
-      
-    >
-      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
-     
-      <Button>View class Courses</Button>
-    </Card>
+     ))}
+   
+    </div>
     
-    </div>
-    <div className="card">
-    <Card
-      title="Programming Class"
-      bordered={false}
-      style={{
-        width: 300,
-        
-      }}
-      
-    >
-      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
-     
-      <Button>View class Courses</Button>
-    </Card>
-    
-    </div>
-    <div className="card">
-    <Card
-      title="Programming Class"
-      bordered={false}
-      style={{
-        width: 300,
-        
-      }}
-      
-    >
-      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
-     
-      <Button>View class Courses</Button>
-    </Card>
-    
-    </div>
-    </div>
   </div>
+  
         </div>
       </div>
     <Footer/>

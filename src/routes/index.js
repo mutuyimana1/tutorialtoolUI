@@ -10,6 +10,7 @@ import AllCourses from "../view/admin/allCourses";
 import Add from "../view/admin/addusertoclass";
 import AddCourses from "../view/admin/createcoure";
 import Courses from "../view/courses";
+import Classes from "../view/classes";
 import Header from "../component/header";
 import Forms from "../component/form";
 
@@ -28,6 +29,7 @@ const Index=()=>{
       <Route path="/addtoclass" element={<Add/>}/>
       <Route path="/add/course" element={<AddCourses/>}/>
       <Route path="/courses" element={<Courses/>}/>
+      <Route path="/classes" element={<Classes/>}/>
       <Route path="/header" element={<Header/>}/>
         </Routes>
     )

@@ -1,33 +1,64 @@
 [
     {
-      "Class_name": "A",
-      "Tutor":"Anne",
+      "Class_name": " programming class",
+      "Tutor":"Ange",
       "Students":"view Students",
-      "courses":"JS"
+      "class_discription":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+      "courses":[{
+        "course_name":"JS",
+        "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+        "course_status":"Enabled",
+        "course_duration":"32hrs"
+      }]
       
       
     },
     {
-      "Class_name": "A",
-      "Tutor":"Anne",
+      "Class_name": "Data science",
+      "Tutor":"Andre",
       "Students":"view Students",
-      "courses":"JS"
+      "class_discription":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+      "courses":[{
+        "course_name":"Java",
+        "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+        "course_status":"Enabled",
+        "course_duration":"32hrs"
+      },
+      {
+        "course_name":"python",
+        "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+        "course_status":"Enabled",
+        "course_duration":"32hrs"
+      }
+    ]
       
       
     },
     {
-      "Class_name": "A",
-      "Tutor":"Anne",
+      "Class_name": "GitHub",
+      "Tutor":"Aimable",
       "Students":"view Students",
-      "courses":"JS"
+      "class_discription":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+      "courses":[{
+        "course_name":"JS",
+        "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+        "course_status":"Enabled",
+        "course_duration":"32hrs"
+      }]
       
       
     },
     {
-      "Class_name": "A",
+      "Class_name": "Data Base",
       "Tutor":"Anne",
       "Students":"view Students",
-      "courses":"JS"
+      "class_discription":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+      "courses":[{
+        "course_name":"JS",
+        "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
+        "course_status":"Enabled",
+        "course_duration":"32hrs"
+      }]
       
       
     }

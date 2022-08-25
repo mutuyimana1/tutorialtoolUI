@@ -11,20 +11,16 @@ const columns = [
     key: 'Course_name',
   },
   {
-    title: 'Course-Tutor',
-    dataIndex: 'Course-Tutor',
-    key: 'Course-Tutor',
+    title: 'course_tutor',
+    dataIndex: 'course_tutor',
+    key: 'course_tutor',
   },
   {
-    title: 'course-duration',
-    dataIndex: 'course-duration',
-    key: 'course-duration',
+    title: 'course_duration',
+    dataIndex: 'course_duration',
+    key: 'course_duration',
   },
-  {
-    title: 'course-content',
-    dataIndex: 'course-content',
-    key: 'course-content',
-  },
+  
   {
     title: 'course_status',
     dataIndex: 'course_status',
