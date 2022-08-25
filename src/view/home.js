@@ -72,33 +72,33 @@ function Home() {
     </div>
     <div className="card">
     <Card
-      title="Card title"
+      title="Programming Class"
       bordered={false}
       style={{
         width: 300,
         
       }}
-      className="card"
+      
     >
-      <p>Card content</p>
-      <p>Card content</p>
-      <p>Card content</p>
+      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
+     
+      <Button>View class Courses</Button>
     </Card>
     
     </div>
     <div className="card">
     <Card
-      title="Card title"
+      title="Programming Class"
       bordered={false}
       style={{
         width: 300,
         
       }}
-      className="card"
+      
     >
-      <p>Card content</p>
-      <p>Card content</p>
-      <p>Card content</p>
+      <p>Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages</p>
+     
+      <Button>View class Courses</Button>
     </Card>
     
     </div>
