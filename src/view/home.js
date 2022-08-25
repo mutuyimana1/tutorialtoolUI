@@ -71,7 +71,7 @@ function Home() {
       <p>{classe.class_discription}</p>
       <b>Created by <i style={{color:"gray"}}> {classe.Tutor}</i></b> <br/><br/>
      
-      <a href="/courses"><Button>View class Courses</Button></a>
+      <a href="/classes" ><Button  >View class Courses</Button></a>
     </Card>
     </div>
      ))}

@@ -1,5 +1,6 @@
 import React ,{useState}from "react";
 import { Carousel, Button, Card,Drawer } from "antd";
+import CourseContent from "./classCourse";
 import "./courses.css"
 const SingleClasse = ({ data }) => {
     const [visible, setVisible] = useState(false);
@@ -15,9 +16,7 @@ const SingleClasse = ({ data }) => {
     
     <>
      <Drawer title="Basic Drawer" placement="right" onClose={onClose} visible={visible}>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
-        <p>Some contents...</p>
+        <CourseContent/>
       </Drawer>
       <div className="single-class" style={{display:"flex"}}>{data.courses.map((course)=>(
       <>

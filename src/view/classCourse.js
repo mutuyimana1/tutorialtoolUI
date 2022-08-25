@@ -4,7 +4,8 @@ import { Carousel, Button, Card } from "antd";
 const CourseContent = ({ data }) => {
   return (
     <>
-      <div className="single-class">{data.courses.map((course)=>(
+
+<div className="single-class" style={{display:"flex"}}>{data.courses.map((course)=>(
       <>
        <div className="site-card-border-less-wrapper">
             <div className="cards" >
@@ -19,9 +20,9 @@ const CourseContent = ({ data }) => {
       }}
       
     >
-    
+      <p>{course.course_name}</p>
       <p>{course.course_content}</p>
-      <Button>finish</Button>
+      <Button >finish</Button>
     </Card>
      
        </div>
