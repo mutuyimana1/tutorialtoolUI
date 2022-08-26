@@ -5,7 +5,7 @@
       "Students":"view Students",
       "class_discription":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
       "courses":[{
-        "course_name":"JS",
+        "course_name":"CSS",
         "course_content":"Find the right instructor for you. <br/> Choose from many topics, skill levels, and languages",
         "course_status":"Enabled",
         "course_duration":"32hrs"

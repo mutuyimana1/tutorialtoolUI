@@ -8,7 +8,7 @@ import SingleClasse from './singleClass';
 function Classes() {
     const [visible, setVisible] = useState(false);
     const [visibleDrawer, setVisibleDrawer] = useState(false);
-const [selectedClasses, setSelectedClasses]=useState()
+const [selectedClasses, setSelectedClasses]=useState({})
 const [selectedCourse, setSelectedCourse]=useState()
     // const showDrawer = () => {
     //   setVisible(true);
